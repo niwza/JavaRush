@@ -28,7 +28,7 @@ public class Solution {
     public static void insert10000(List list) {
         //напишите тут ваш код
         for (int i = 0; i < 10000; i++)
-            list.add(0, i);
+            list.add(i);
 
     }
 
@@ -49,7 +49,7 @@ public class Solution {
     public static void remove10000(List list) {
         //напишите тут ваш код
         for (int i = 0; i < 10000; i++)
-            list.remove(i);
+            list.remove(0);
 
     }
 }
