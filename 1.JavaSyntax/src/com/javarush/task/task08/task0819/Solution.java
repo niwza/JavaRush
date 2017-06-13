@@ -2,7 +2,7 @@ package com.javarush.task.task08.task0819;
 
 import java.util.*;
 
-/* 
+/*
 Set из котов
 */
 
@@ -19,9 +19,9 @@ public class Solution {
     public static Set<Cat> createCats() {
         //напишите тут ваш код. step 2 - пункт 2
         Set<Cat> cats = new HashSet<>();
-        cats.add(new Cat("Vaska"));
-        cats.add(new Cat("Murka"));
-        cats.add(new Cat("Pushok"));
+        cats.add(new Cat());
+        cats.add(new Cat());
+        cats.add(new Cat());
         return cats;
     }
 
@@ -33,10 +33,5 @@ public class Solution {
 
     // step 1 - пункт 1
     public static class Cat {
-        private String name;
-
-        public Cat(String name) {
-            this.name = name;
-        }
     }
 }
