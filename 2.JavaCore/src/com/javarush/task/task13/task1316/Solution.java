@@ -24,13 +24,13 @@ public class Solution {
 //
 //        protected void onPress();
 
-        void onPress();
+//        void onPress();
 
 //        private void onPress();
 
 //        protected String onPress(Object o);
 //
-//        String onPress(Object o);
+        String onPress(Object o);
 //
 //        private String onPress(Object o);
 
