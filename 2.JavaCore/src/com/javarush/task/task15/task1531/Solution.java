@@ -34,4 +34,12 @@ public class Solution {
             return BigInteger.valueOf(1);
         return calculateFactorial(i.subtract(BigInteger.valueOf(1))).multiply(i);
     }
+
+//    public static int calculateFactorial(int i) {
+//        if (i < 0)
+//            return 0;
+//        else if (i == 0)
+//            return 1;
+//        return calculateFactorial(i - 1) * i;
+//    }
 }
